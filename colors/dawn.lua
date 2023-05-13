@@ -239,7 +239,7 @@ hi("WildMenu", {
   bg = Dawn.surface2,
 })
 
-hi("Winbar", {
+hi("WinBar", {
   fg = Dawn.pink,
   italic = true,
 })
@@ -941,6 +941,10 @@ hi("@storageclass.lifetime.rust", {
   link = "rustLifetime",
 })
 
+hi("@lsp.typemod.builtinAttribute.attribute.rust", {
+  fg = Dawn.teal,
+})
+
 hi("@lsp.type.formatSpecifier.rust", {
   link = "@punctuation.bracket",
 })
@@ -950,7 +954,39 @@ hi("@lsp.type.variable.rust", {
 })
 
 hi("@lsp.typemod.operator.controlFlow.rust", {
-  link = "Special",
+  link = "@special",
+})
+
+hi("@lsp.typemod.keyword.injected.rust", {
+  link = "@keyword",
+})
+
+hi("@lsp.typemod.operator.injected.rust", {
+  link = "@operator",
+})
+
+hi("@lsp.typemod.number.injected.rust", {
+  link = "@number",
+})
+
+hi("@lsp.typemod.generic.injected.rust", {
+  link = "@punctuation",
+})
+
+hi("@lsp.typemod.string.injected.rust", {
+  link = "@string",
+})
+
+hi("@lsp.typemod.builtinType.injected.rust", {
+  link = "@type.builtin",
+})
+
+hi("@lsp.typemod.boolean.injected.rust", {
+  link = "@boolean",
+})
+
+hi("@lsp.typemod.lifetime.injected.rust", {
+  link = "rustLifetime",
 })
 
 --[[--------------------------------------------RUST--------------------------------------------]]--
