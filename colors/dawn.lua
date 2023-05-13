@@ -385,7 +385,7 @@ hi("Character", {
 })
 
 hi("Number", {
-  fg = Dawn.yellow,
+  fg = Dawn.red,
 })
 
 hi("Float", {
@@ -645,7 +645,7 @@ hi("@operator", {
 })
 
 hi("@parameter", {
-  fg = Dawn.red,
+  fg = Dawn.maroon,
 })
 
 hi("@preproc", {
@@ -754,7 +754,8 @@ hi("@lsp.type.function", {
 })
 
 hi("@lsp.type.interface", {
-  link = "@type",
+  fg = Dawn.flamingo,
+  bold = true,
 })
 
 hi("@lsp.type.macro", {
@@ -954,7 +955,8 @@ hi("@lsp.type.variable.rust", {
 })
 
 hi("@lsp.typemod.operator.controlFlow.rust", {
-  link = "@special",
+  fg = Dawn.mauve,
+  bold = true,
 })
 
 hi("@lsp.typemod.keyword.injected.rust", {
@@ -987,6 +989,11 @@ hi("@lsp.typemod.boolean.injected.rust", {
 
 hi("@lsp.typemod.lifetime.injected.rust", {
   link = "rustLifetime",
+})
+
+hi("@lsp.type.selfKeyword.rust", {
+  fg = Dawn.red,
+  bold = true,
 })
 
 --[[--------------------------------------------RUST--------------------------------------------]]--
