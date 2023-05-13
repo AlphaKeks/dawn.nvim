@@ -248,7 +248,9 @@ hi("TabLineSel", {
   bold = true,
 })
 
-hi("Title")
+hi("Title", {
+  fg = Dawn.poggers,
+})
 
 hi("Visual", {
   bg = Dawn.surface2,
