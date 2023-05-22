@@ -168,7 +168,9 @@ hi("Question", {
   fg = Dawn.green,
 })
 
-hi("QuickFixLine")
+hi("QuickFixLine", {
+  link = "Visual",
+})
 
 hi("Search", {
   fg = Dawn.crust,
@@ -633,7 +635,7 @@ hi("@method", {
 })
 
 hi("@namespace", {
-  fg = Dawn.mauve,
+  fg = Dawn.blue,
 })
 
 hi("@number", {
@@ -737,7 +739,7 @@ hi("@lsp.type.comment", {
 })
 
 hi("@lsp.type.decorator", {
-  fg = Dawn.mauve,
+  fg = Dawn.rosewater,
 })
 
 hi("@lsp.type.enum", {
@@ -767,7 +769,7 @@ hi("@lsp.type.method", {
 })
 
 hi("@lsp.type.namespace", {
-  link = "@type",
+  link = "@namespace",
 })
 
 hi("@lsp.type.parameter", {
@@ -943,7 +945,7 @@ hi("@storageclass.lifetime.rust", {
 })
 
 hi("@lsp.typemod.builtinAttribute.attribute.rust", {
-  fg = Dawn.teal,
+  fg = Dawn.red,
 })
 
 hi("@lsp.type.formatSpecifier.rust", {
@@ -993,6 +995,28 @@ hi("@lsp.typemod.lifetime.injected.rust", {
 
 hi("@lsp.type.selfKeyword.rust", {
   fg = Dawn.red,
+  bold = true,
+})
+
+hi("@lsp.typemod.namespace.attribute.rust", {
+  fg = Dawn.peach,
+  bold = true,
+})
+
+hi("@lsp.type.number.rust", {
+  link = "@number",
+})
+
+hi("@lsp.typemod.character.injected.rust", {
+  link = "@character",
+})
+
+hi("@lsp.typemod.punctuation.injected.rust", {
+  link = "@punctuation",
+})
+
+hi("@lsp.typemod.keyword.crateRoot.rust", {
+  fg = Dawn.pink,
   bold = true,
 })
 
